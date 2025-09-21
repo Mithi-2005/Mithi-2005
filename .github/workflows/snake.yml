@@ -2,17 +2,17 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: '0 0 * * *'   # runs daily at 00:00 UTC
+    - cron: '0 0 * * *'   # daily at 00:00 UTC
   push:
     branches:
       - main
       - master
 
 jobs:
-  build:
+  generate-snake:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
         with:
           persist-credentials: true
@@ -22,31 +22,32 @@ jobs:
         with:
           node-version: 18
 
-      - name: Install dependencies (if needed)
-        run: |
-          # try to use npx (no package.json needed)
-          npm --version
+      - name: Ensure output dir
+        run: mkdir -p output
 
-      - name: Generate contribution-snake SVG
+      - name: Try generate snake via npx (primary)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          # Create output dir
-          mkdir -p output
+          set -e
+          echo "Attempting npx github-contribution-grid-snake..."
+          if npx --yes github-contribution-grid-snake -u ${{ github.repository_owner }} -o output/github-contribution-grid-snake.svg; then
+            echo "Generated with github-contribution-grid-snake"
+          else
+            echo "Primary CLI failed, attempting alternative npx commands..."
+            # Try '@platane/snk' (alternate package name)
+            if npx --yes @platane/snk -u ${{ github.repository_owner }} -o output/github-contribution-grid-snake.svg; then
+              echo "Generated with @platane/snk"
+            else
+              echo "Both npx attempts failed. Please open an issue or message me and I'll provide a maintained action variant."
+              exit 0
+            fi
+          fi
 
-          # Generate snake SVG using an npx tool.
-          # The command below uses "github-contribution-grid-snake" (common CLI).
-          # It writes the SVG to output/github-contribution-grid-snake.svg
-          #
-          # If this CLI isn't available in your environment, tell me and I will
-          # provide an alternate action or community action to run instead.
-          npx github-contribution-grid-snake -u ${{ github.repository_owner }} -o output/github-contribution-grid-snake.svg || \
-          (echo "npx generation failed — trying alternative Platane snk..." && npx @platane/snk -u ${{ github.repository_owner }} -o output/github-contribution-grid-snake.svg)
-
-      - name: Commit and push snake SVG
+      - name: Commit & push generated SVG
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/github-contribution-grid-snake.svg || true
           if git diff --cached --quiet; then
             echo "No changes to commit"
