@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="220" viewBox="0 0 1200 220" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#071426">
+        <animate attributeName="stop-color" values="#071426;#002b36;#071426" dur="7s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#003f4e">
+        <animate attributeName="stop-color" values="#003f4e;#00b3c6;#003f4e" dur="7s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+
+    <style><![CDATA[
+      .name { font: 700 40px 'Inter', 'Segoe UI', Roboto, sans-serif; fill: #e6f7fb; }
+      .tag  { font: 400 16px 'Inter', sans-serif; fill: #cfeff4; }
+      .float { animation: float 6s infinite ease-in-out; transform-origin: center; }
+      @keyframes float {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-6px); }
+        100% { transform: translateY(0); }
+      }
+      .dot { fill: #00f0ff; opacity: 0.9; }
+    ]]></style>
+  </defs>
+
+  <rect width="1200" height="220" fill="url(#g1)"/>
+
+  <g class="float">
+    <text x="60" y="95" class="name">Konagalla Venkata Mithilesh</text>
+    <text x="60" y="135" class="tag">Aspiring Software Developer · Full-Stack · ML Engineer</text>
+  </g>
+
+  <circle class="dot" cx="1100" cy="60" r="5">
+    <animate attributeName="r" values="4;9;4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle class="dot" cx="1020" cy="170" r="4">
+    <animate attributeName="r" values="3;7;3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+</svg>
