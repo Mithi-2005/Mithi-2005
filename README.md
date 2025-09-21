@@ -38,49 +38,64 @@
 ---
 
 
-# 💻 Projects
+
+
+## 💻 **Projects & Showcases**
 
 ## 💻 **Projects & Showcases**
 
 <div align="center">
+  
+<img src="https://github-profile-trophy.vercel.app/?username=Mounika-Chowdary28&theme=discord&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" />
 
 <table>
 <tr>
-<td align="center" width="25%">
-<a href="https://github.com/Mithi-2005/StudySync">
-<img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="150" style="border-radius:12px"/><br>
-<strong>StudySync</strong><br>
-Django + MySQL student & faculty portal (timetables, assignments, quizzes, role-based access)
-</a>
+<td align="center">
+<img src="https://img.shields.io/badge/Portfolio-React%20%2B%20Tailwind-00d9ff?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<br>
+<a href="https://mounikachowdaryportfolio.netlify.app">My Personal Portfolio</a>
 </td>
-
-<td align="center" width="25%">
-<a href="https://github.com/Mithi-2005/ride">
-<img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="150" style="border-radius:12px"/><br>
-<strong>Ride</strong><br>
-Node.js/Express app with Passport.js auth, Google Places API, realtime notifications
-</a>
+<td align="center">
+<img src="https://img.shields.io/badge/Expense%20Tracker-React%20%2B%20Node.js-00d9ff?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<br>
+<a href="https://github.com/Mounika-Chowdary28/expense-tracker">Expense Tracker App</a>
 </td>
-
-<td align="center" width="25%">
-<a href="https://github.com/Mithi-2005/network_security">
-<img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="150" style="border-radius:12px"/><br>
-<strong>Phishing Detection</strong><br>
-ML pipeline (scikit-learn) + FastAPI + Docker
-</a>
+<td align="center">
+<img src="https://img.shields.io/badge/Blog%20CMS-Django%20%2B%20PostgreSQL-00d9ff?style=for-the-badge&logo=django&logoColor=white" />
+<br>
+<a href="https://github.com/Mounika-Chowdary28/blog-cms">Dynamic Blogging Platform</a>
 </td>
+<td align="center">
+<img src="https://img.shields.io/badge/Weather%20App-Node.js%20%2B%20MySQL-00d9ff?style=for-the-badge&logo=node.js&logoColor=white" />
+<br>
+<a href="https://github.com/Mounika-Chowdary28/weather-app">Weather Forecast Application</a>
+</td>
+</tr>
 
-<td align="center" width="25%">
-<a href="https://github.com/Mithi-2005/sentiment_analysis">
-<img src="https://media.giphy.com/media/3orieV6clHc5DRs6DK/giphy.gif" width="150" style="border-radius:12px"/><br>
-<strong>Kindle Review Sentiment</strong><br>
-NLP pipeline + Streamlit (84.5% accuracy)
-</a>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/Chat%20App-React%20%2B%20Node.js-00d9ff?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<br>
+<a href="https://github.com/Mounika-Chowdary28/chat-app">Real-time Chat Application</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/E-commerce-React%20%2B%20Django-00d9ff?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<br>
+<a href="https://github.com/Mounika-Chowdary28/ecommerce">E-commerce Platform</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Portfolio%20Backend-Node.js%20%2B%20MongoDB-00d9ff?style=for-the-badge&logo=node.js&logoColor=white" />
+<br>
+<a href="https://github.com/Mounika-Chowdary28/portfolio-backend">Portfolio Backend API</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Todo%20App-React%20%2B%20Firebase-00d9ff?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<br>
+<a href="https://github.com/Mounika-Chowdary28/todo-app">Task Management App</a>
 </td>
 </tr>
 </table>
 
-<p><em>Click any project to view the repo.</em></p>
 </div>
 
 
