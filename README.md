@@ -33,9 +33,7 @@
 ---
 
 # 🛠 Tech Snapshot
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,java,c,cpp,html,css,js,tailwind,react,django,nodejs,express,mysql,postgresql,mongodb,laravel,git,docker,aws" />
-</p>
+<div align="center"> <table> <tr> <td align="center" width="25%"> <h3>🎨 Frontend</h3> <img src="https://skillicons.dev/icons?i=html,css,js,react,tailwind" width="180"/> <br> <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" /> </td> <td align="center" width="25%"> <h3>⚙️ Backend</h3> <img src="https://skillicons.dev/icons?i=nodejs,django,express,python" width="180"/> <br> <img src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white" /> <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" /> </td> <td align="center" width="25%"> <h3>🗄️ Database</h3> <img src="https://skillicons.dev/icons?i=mysql,postgresql,mongodb" width="180"/> <br> <img src="https://img.shields.io/badge/MySQL-00000F?style=for-the-badge&logo=mysql&logoColor=white" /> <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" /> </td> <td align="center" width="25%"> <h3>🔧 Tools</h3> <img src="https://skillicons.dev/icons?i=git,docker,aws" width="180"/> <br> <img src="https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" /> </td> </tr> </table> </div>
 
 ---
 
