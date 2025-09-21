@@ -1,0 +1,70 @@
+name: Generate Contribution Snake (Platane action + commit + artifact)
+
+on:
+  workflow_dispatch:        # allows manual runs
+  schedule:
+    - cron: '0 0 * * *'     # daily at 00:00 UTC
+  push:
+    branches: [ main, master ]
+
+permissions:
+  contents: write
+
+jobs:
+  generate-snake:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository (full history)
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+          fetch-depth: 0
+
+      - name: Ensure output directories
+        run: |
+          mkdir -p dist output
+          ls -la .
+
+      - name: Run Platane/snk to generate snake images (SVG + dark SVG + GIF)
+        uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake.svg
+            dist/github-snake-dark.svg?palette=github-dark
+            dist/github-snake-ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9
+
+      - name: Show generated files (debug)
+        run: |
+          echo "dist/ contents:"
+          ls -la dist || true
+          for f in dist/*; do
+            echo "---- $f ----"
+            head -n 8 "$f" || true
+          done
+
+      - name: Copy generated to output
+        run: |
+          mkdir -p output
+          cp -v dist/* output/ || echo "No files to copy"
+
+      - name: Upload generated files as artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: contribution-snake-files
+          path: |
+            dist/
+            output/
+
+      - name: Commit & push generated files to repo (if changed)
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A output || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit (either nothing generated or identical to existing files)."
+          else
+            git commit -m "chore: update contribution-snake [skip ci]" || true
+            git push origin HEAD:${{ github.ref_name || 'main' }}
+          fi
