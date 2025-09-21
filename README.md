@@ -1,4 +1,3 @@
-<!-- Typing Animation Header -->
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&pause=1000&color=FF5733&center=true&vCenter=true&width=700&lines=Hi+👋,+I'm+Konagalla+Venkata+Mithilesh;Software+Developer+|+Problem+Solver;Competitive+Programmer+|+Tech+Enthusiast" />
 </p>
@@ -24,19 +23,19 @@
 
 ## 🚀 Featured Projects
 <p align="center">
-  <a href="https://github.com/Mithi-2005/StudySync">
-    <img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="180"/>
-    <br>StudySync
+  <a href="https://github.com/Mithi-2005/StudySync" title="StudySync">
+    <img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="180" alt="StudySync" style="margin: 0 10px;"/>
+    <br><b>StudySync</b>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Mithi-2005/ride">
-    <img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="180"/>
-    <br>Ride
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Mithi-2005/ride" title="Ride">
+    <img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="180" alt="Ride" style="margin: 0 10px;"/>
+    <br><b>Ride</b>
   </a>
-  &nbsp;&nbsp;
-  <a href="https://github.com/Mithi-2005/network_security">
-    <img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="180"/>
-    <br>Phishing Detection
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://github.com/Mithi-2005/network_security" title="Phishing Detection">
+    <img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="180" alt="Phishing Detection" style="margin: 0 10px;"/>
+    <br><b>Phishing Detection</b>
   </a>
 </p>
 
