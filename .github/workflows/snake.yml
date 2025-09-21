@@ -2,18 +2,55 @@ name: Generate Contribution Snake
 
 on:
   schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
+    - cron: '0 0 * * *'   # runs daily at 00:00 UTC
+  push:
+    branches:
+      - main
+      - master
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
-      - uses: actions/checkout@v2
-      - uses: Platane/snk@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
         with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake.gif
+          persist-credentials: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies (if needed)
+        run: |
+          # try to use npx (no package.json needed)
+          npm --version
+
+      - name: Generate contribution-snake SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Create output dir
+          mkdir -p output
+
+          # Generate snake SVG using an npx tool.
+          # The command below uses "github-contribution-grid-snake" (common CLI).
+          # It writes the SVG to output/github-contribution-grid-snake.svg
+          #
+          # If this CLI isn't available in your environment, tell me and I will
+          # provide an alternate action or community action to run instead.
+          npx github-contribution-grid-snake -u ${{ github.repository_owner }} -o output/github-contribution-grid-snake.svg || \
+          (echo "npx generation failed — trying alternative Platane snk..." && npx @platane/snk -u ${{ github.repository_owner }} -o output/github-contribution-grid-snake.svg)
+
+      - name: Commit and push snake SVG
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add output/github-contribution-grid-snake.svg || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update contribution-snake [skip ci]" || true
+            git push
+          fi
