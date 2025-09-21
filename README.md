@@ -40,36 +40,7 @@
 
 # 💻 Projects
 
-<div align="center">
-
-<a href="https://github.com/Mithi-2005/StudySync" style="margin:10px; display:inline-block;">
-  <img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="200" style="border-radius:12px"/><br>
-  <strong>StudySync</strong><br>
-  Django + MySQL student & faculty portal (timetables, assignments, quizzes, role-based access)
-</a>
-
-<a href="https://github.com/Mithi-2005/ride" style="margin:10px; display:inline-block;">
-  <img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="200" style="border-radius:12px"/><br>
-  <strong>Ride</strong><br>
-  Node.js/Express app with Passport.js auth, Google Places API, realtime notifications
-</a>
-
-<a href="https://github.com/Mithi-2005/network_security" style="margin:10px; display:inline-block;">
-  <img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="200" style="border-radius:12px"/><br>
-  <strong>Phishing Detection</strong><br>
-  ML pipeline (scikit-learn) + FastAPI + Docker
-</a>
-
-<a href="https://github.com/Mithi-2005/sentiment_analysis" style="margin:10px; display:inline-block;">
-  <img src="https://media.giphy.com/media/3orieV6clHc5DRs6DK/giphy.gif" width="200" style="border-radius:12px"/><br>
-  <strong>Kindle Review Sentiment</strong><br>
-  NLP pipeline + Streamlit (84.5% accuracy)
-</a>
-
-</div>
-
-<p align="center"><em>Click any project to view the repo.</em></p>
-
+<div align="center"> <!-- Project Cards --> <div style="display:flex; flex-wrap: wrap; justify-content:center; gap:15px;"> <div align="center"> <a href="https://github.com/Mithi-2005/StudySync"> <img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="200" style="border-radius:12px"/><br> <strong>StudySync</strong><br> Django + MySQL student & faculty portal (timetables, assignments, quizzes, role-based access) </a> </div> <div align="center"> <a href="https://github.com/Mithi-2005/ride"> <img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="200" style="border-radius:12px"/><br> <strong>Ride</strong><br> Node.js/Express app with Passport.js auth, Google Places API, realtime notifications </a> </div> <div align="center"> <a href="https://github.com/Mithi-2005/network_security"> <img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="200" style="border-radius:12px"/><br> <strong>Phishing Detection</strong><br> ML pipeline (scikit-learn) + FastAPI + Docker </a> </div> <div align="center"> <a href="https://github.com/Mithi-2005/sentiment_analysis"> <img src="https://media.giphy.com/media/3orieV6clHc5DRs6DK/giphy.gif" width="200" style="border-radius:12px"/><br> <strong>Kindle Review Sentiment</strong><br> NLP pipeline + Streamlit (84.5% accuracy) </a> </div> </div> <p><em>Click any project to view the repo.</em></p> </div>
 
 ---
 
