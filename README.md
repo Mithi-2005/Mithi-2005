@@ -42,6 +42,36 @@
 
 ## 💻 **Projects & Showcases**
 
+## 💻 **Projects & Showcases**
+
+<div align="center">
+  
+<table>
+<tr>
+<td align="center">
+<img src="https://img.shields.io/badge/StudySync-Django%20%2B%20MySQL-00d9ff?style=for-the-badge&logo=django&logoColor=white" />
+<br>
+<a href="https://github.com/Mithi-2005/StudySync">Student & Faculty Portal (timetables, assignments, quizzes, role-based access)</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Ride-Node.js%20%2B%20Express-00d9ff?style=for-the-badge&logo=node.js&logoColor=white" />
+<br>
+<a href="https://github.com/Mithi-2005/ride">Ride Sharing App with Passport.js auth, Google Places API, realtime notifications</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Phishing%20Detection-ML%20%2B%20FastAPI-00d9ff?style=for-the-badge&logo=python&logoColor=white" />
+<br>
+<a href="https://github.com/Mithi-2005/network_security">ML pipeline for Phishing Detection + Docker deployment</a>
+</td>
+<td align="center">
+<img src="https://img.shields.io/badge/Kindle%20Review-NLP%20%2B%20Streamlit-00d9ff?style=for-the-badge&logo=streamlit&logoColor=white" />
+<br>
+<a href="https://github.com/Mithi-2005/sentiment_analysis">Sentiment Analysis on Kindle Reviews (84.5% accuracy)</a>
+</td>
+</tr>
+</table>
+
+</div>
 
 
 ---
