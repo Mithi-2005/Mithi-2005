@@ -6,7 +6,7 @@
 
 <!-- ================= Typing Intro ================= -->
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00C9FF&center=true&width=760&lines=Hi+%F0%9F%91%8B,+I'm+Konagalla+Venkata+Mithilesh;Aspiring+%7C+Full-Stack+Developer+%26+ML+Engineer;Building+web+apps+%26+ML+pipelines" alt="typing"/>
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=00C9FF&center=true&width=760&lines=Hi+%F0%9F%91%8B,+I'm+Konagalla+Venkata+Mithilesh;Aspiring+%7C+Full-Stack+Dev+%26+ML+Engineer;Building+web+apps+%26+ML+pipelines" alt="typing"/>
 </p>
 
 <p align="center">
