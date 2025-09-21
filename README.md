@@ -39,35 +39,53 @@
 
 ---
 
-# ✨ Spotlight — Featured Projects
+
+# 💻 Projects
+
 <div align="center">
 
-<a href="https://github.com/Mithi-2005/StudySync" title="StudySync">
-  <img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="230" style="border-radius:8px"/>
-  <br/><strong>StudySync</strong>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Mithi-2005/ride" title="Ride">
-  <img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="230" style="border-radius:8px"/>
-  <br/><strong>Ride</strong>
-</a>
-&nbsp;&nbsp;
-<a href="https://github.com/Mithi-2005/network_security" title="Phishing Detection">
-  <img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="230" style="border-radius:8px"/>
-  <br/><strong>Phishing Detection</strong>
-</a>
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Mithi-2005/StudySync">
+        <img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="200" style="border-radius:12px"/><br>
+        <strong>StudySync</strong>
+      </a>
+      <p>Django + MySQL student & faculty portal (timetables, assignments, quizzes, role-based access)</p>
+    </td>
+
+    <td align="center">
+      <a href="https://github.com/Mithi-2005/ride">
+        <img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="200" style="border-radius:12px"/><br>
+        <strong>Ride</strong>
+      </a>
+      <p>Node.js/Express app with Passport.js auth, Google Places API, realtime notifications</p>
+    </td>
+
+    <td align="center">
+      <a href="https://github.com/Mithi-2005/network_security">
+        <img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="200" style="border-radius:12px"/><br>
+        <strong>Phishing Detection</strong>
+      </a>
+      <p>ML pipeline (scikit-learn) + FastAPI + Docker</p>
+    </td>
+  </tr>
+
+  <tr>
+    <td align="center">
+      <a href="https://github.com/Mithi-2005/sentiment_analysis">
+        <img src="https://media.giphy.com/media/3orieV6clHc5DRs6DK/giphy.gif" width="200" style="border-radius:12px"/><br>
+        <strong>Kindle Review Sentiment</strong>
+      </a>
+      <p>NLP pipeline + Streamlit (84.5% accuracy)</p>
+    </td>
+  </tr>
+</table>
 
 </div>
 
 <p align="center"><em>Click any project to view the repo.</em></p>
 
----
-
-# 📚 Projects (short)
-- **StudySync** — Django + MySQL student & faculty portal (timetables, assignments, quizzes, role-based access). — https://github.com/Mithi-2005/StudySync  
-- **Ride** — Node.js / Express app with Passport.js auth, Google Places API, realtime notifications — https://github.com/Mithi-2005/ride  
-- **Phishing Detection** — ML pipeline (scikit-learn) + FastAPI + Docker — https://github.com/Mithi-2005/network_security  
-- **Kindle Review Sentiment Analysis** — NLP pipeline + Streamlit (84.5% accuracy) — https://github.com/Mithi-2005/sentiment_analysis
 
 ---
 
