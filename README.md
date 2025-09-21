@@ -50,24 +50,24 @@
       <a href="https://github.com/Mithi-2005/StudySync">
         <img src="https://media.giphy.com/media/26BRQTezZrKak4BeE/giphy.gif" width="200" style="border-radius:12px"/><br>
         <strong>StudySync</strong>
-      </a>
-      <p>Django + MySQL student & faculty portal (timetables, assignments, quizzes, role-based access)</p>
+      </a><br>
+      Django + MySQL student & faculty portal (timetables, assignments, quizzes, role-based access)
     </td>
 
     <td align="center">
       <a href="https://github.com/Mithi-2005/ride">
         <img src="https://media.giphy.com/media/xT0GqFZ8Q7g8QjQ3GM/giphy.gif" width="200" style="border-radius:12px"/><br>
         <strong>Ride</strong>
-      </a>
-      <p>Node.js/Express app with Passport.js auth, Google Places API, realtime notifications</p>
+      </a><br>
+      Node.js/Express app with Passport.js auth, Google Places API, realtime notifications
     </td>
 
     <td align="center">
       <a href="https://github.com/Mithi-2005/network_security">
         <img src="https://media.giphy.com/media/3o6MblfP3lDzQnrrgI/giphy.gif" width="200" style="border-radius:12px"/><br>
         <strong>Phishing Detection</strong>
-      </a>
-      <p>ML pipeline (scikit-learn) + FastAPI + Docker</p>
+      </a><br>
+      ML pipeline (scikit-learn) + FastAPI + Docker
     </td>
   </tr>
 
@@ -76,8 +76,8 @@
       <a href="https://github.com/Mithi-2005/sentiment_analysis">
         <img src="https://media.giphy.com/media/3orieV6clHc5DRs6DK/giphy.gif" width="200" style="border-radius:12px"/><br>
         <strong>Kindle Review Sentiment</strong>
-      </a>
-      <p>NLP pipeline + Streamlit (84.5% accuracy)</p>
+      </a><br>
+      NLP pipeline + Streamlit (84.5% accuracy)
     </td>
   </tr>
 </table>
