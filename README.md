@@ -59,7 +59,7 @@
 
 </div>
 
-<p align="center"><em>Click any project to view the repo. Replace GIFs with short demo GIFs in `/assets/gifs/` for better previews.</em></p>
+<p align="center"><em>Click any project to view the repo.</em></p>
 
 ---
 
@@ -96,9 +96,7 @@
   <img src="https://raw.githubusercontent.com/Mithi-2005/Mithi-2005/main/output/github-snake.svg" alt="contribution-snake" />
 </p>
 
-> If the snake image is blank, run the snake workflow (instructions below) — it will generate and commit the SVG/GIF into `output/`.
 
----
 
 # 🎯 About Me
 - **B.Tech CSE** — SRM University-AP (2023–2027) — **CGPA: 9.34**  
@@ -114,11 +112,3 @@
 - 100+ DSA problems solved on LeetCode
 
 ---
-
-# ⚡ Want these extras?
-- I can replace the top banner with a GIF demo I convert from your SVG.  
-- I can also create small 5–8s GIF demos of StudySync / Ride from a local run (I’ll give scripts to capture + convert).
-
----
-
-*Copy this README into your repository `Mithi-2005` (root `README.md`). Replace any placeholder GIFs with your own demo GIFs at `assets/gifs/` if you create them.*
